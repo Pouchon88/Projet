@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="reservation.js"></script>
+    <title>Réservation - Pouch'Café</title>
+    <link rel="stylesheet" href="CSS/reservation.css">
+    
+    
+</head>
+<style>
+    body {
+        background-image: url(images/Menu.png);
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/cafe.png" alt="Pouch'Café Logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">À Propos</a>
+            <a href="Clients.html">Avis Clients</a>
+            <a href="reservation.html">Réservations</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Réservation - Pouch'Café</h1>
+    </header>
+
+    <section>
+        <!-- Contenu de la page de réservation -->
+        <label for="date">Date :</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Heure :</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="guests">Nombre de convives :</label>
+        <select id="guests" name="guests" required>
+            <option value="1">1 personne</option>
+            <option value="2">2 personnes</option>
+            <option value="3">3 personnes</option>
+            <!-- Ajoutez autant d'options que nécessaire -->
+        </select>
+
+        <button onclick="makeReservation()">Réserver</button>
+        
+    </section>
+
+    <!-- Ajoutez ceci dans votre section À Propos -->
+<div class="opening-hours">
+    <h2>Horaires d'Ouverture</h2>
+    <ul>
+        <li><strong>Lundi :</strong> 8h00 - 18h00</li>
+        <li><strong>Mardi :</strong> 8h00 - 18h00</li>
+        <li><strong>Mercredi :</strong> 8h00 - 18h00</li>
+        <li><strong>Jeudi :</strong> 8h00 - 20h00</li>
+        <li><strong>Vendredi :</strong> 8h00 - 20h00</li>
+        <li><strong>Samedi :</strong> 9h00 - 17h00</li>
+        <li><strong>Dimanche :</strong> Fermé</li>
+    </ul>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

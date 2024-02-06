@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif; /* Nouvelle police 'Roboto' */
+    color: #FFD700; /* Couleur dorée pour le texte */
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-top: 100px;
+    font-weight: 900   
+}
+
+h1 {
+    border: 2px solid #FFD700; /* Couleur et épaisseur de la bordure */
+    border-radius: 5px; /* Bordure arrondie */
+    padding: 10px; /* Espace à l'intérieur de la bordure */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre pour l'effet 3D */
+    display: inline-block; /* Pour que la bordure s'ajuste autour du contenu */
+    margin-top: 70px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: #FFD700; /* Couleur dorée pour les liens */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+    margin-left: 10px;
+}
+
+/* Ajout de styles pour le slogan */
+.slogan-container {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fond avec une opacité de 70% */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.slogan {
+    color: #FFD700; /* Couleur dorée pour le texte du slogan */
+    font-size: 1.2em;
+    font-style: italic;
+}
